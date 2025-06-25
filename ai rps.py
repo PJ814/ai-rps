@@ -7,62 +7,16 @@ print("Welcome to the game rock paper scissors")
 r = 0
 p = 0
 s = 0
-
-maya = {
-    "rr" : 0,
-    "pr" : 0,
-    "sr" : 0,
-    "rp" : 0,
-    "pp" : 0,
-    "sp" : 0,
-    "rs" : 0,
-    "ps" : 0,
-    "ss" : 0
-}
-#ordered list this list keeps track the order the used types in their moves
-ol = []     # <-- if.utl"ks'
-
-playagain = True
-
-#main code
-while playagain:
-
-    # making a total
-    total = r + s + p
-    if total == 0:
-        choice = random.randint(0,2)
-    else:
-        rpc = r/total 
-        ppc = p/total
-        spc = s/total
-        if rpc >= ppc and rpc >= spc:
-            choice = 1
-        elif ppc >= rpc and ppc >= spc:
-            choice = 2
-        elif spc >= rpc and spc >= ppc:
-            choice = 0
+gyggftuydfjvghkbuiyg78ruftdguggyughjbnjyugjbu
 
 
-    '''
-    here we will write code that will instead of picking a random number will instead make the computer make it more educated guess
-    statistics def: the colection of data in order to interpert and analyze behavior in daily life through math
-    '''
+
+gdhfhgfhgfgh
+kgjghj
+hjkhkjh
 
 
-    #players choice
-    answer = input("rock, paper, or scissors? ")
-    
-    if choice == 0:
-        print("the computer picked rock")
-        if answer == "rock":
-            r += 1
-            print("we tied! Lets play again! @_@")
-        elif answer == "paper":
-            p += 1
-            print("you won! Good job ^_^")
-        elif answer == "scissors":
-            s += 1
-            print("awww you lost! #_#n")
+print("awww you lost! #_#n")
     elif choice == 1:
         print("the computer picked paper")
         if answer == "rock":
